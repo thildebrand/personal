@@ -6,223 +6,327 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		42BEAA0A2D100AE100765F1F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BEAA092D100AE100765F1F /* WidgetKit.framework */; };
+		42BEAA0C2D100AE100765F1F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BEAA0B2D100AE100765F1F /* SwiftUI.framework */; };
+		42BEAA1D2D100AE300765F1F /* HomeWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 42BEAA072D100AE100765F1F /* HomeWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		4200A9FC2D0FD0AE005A952A /* PBXContainerItemProxy */ = {
+		42BEA9E72D100ACA00765F1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4200A9E32D0FD0AD005A952A /* Project object */;
+			containerPortal = 42BEA9CE2D100AC800765F1F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4200A9EA2D0FD0AD005A952A;
+			remoteGlobalIDString = 42BEA9D52D100AC800765F1F;
 			remoteInfo = RevyApp;
 		};
-		4200AA062D0FD0AE005A952A /* PBXContainerItemProxy */ = {
+		42BEA9F12D100ACA00765F1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4200A9E32D0FD0AD005A952A /* Project object */;
+			containerPortal = 42BEA9CE2D100AC800765F1F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4200A9EA2D0FD0AD005A952A;
+			remoteGlobalIDString = 42BEA9D52D100AC800765F1F;
 			remoteInfo = RevyApp;
+		};
+		42BEAA1B2D100AE300765F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BEA9CE2D100AC800765F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BEAA062D100AE100765F1F;
+			remoteInfo = HomeWidgetExtensionExtension;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		42BEAA222D100AE300765F1F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42BEAA1D2D100AE300765F1F /* HomeWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		4200A9EB2D0FD0AD005A952A /* RevyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4200A9FB2D0FD0AE005A952A /* RevyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4200AA052D0FD0AE005A952A /* RevyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BEA9D62D100AC800765F1F /* RevyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BEA9E62D100ACA00765F1F /* RevyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BEA9F02D100ACA00765F1F /* RevyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BEAA072D100AE100765F1F /* HomeWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HomeWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BEAA092D100AE100765F1F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		42BEAA0B2D100AE100765F1F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		42BEAA1E2D100AE300765F1F /* Exceptions for "HomeWidgetExtension" folder in "HomeWidgetExtensionExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 42BEAA062D100AE100765F1F /* HomeWidgetExtensionExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4200A9ED2D0FD0AD005A952A /* RevyApp */ = {
+		42BEA9D82D100AC800765F1F /* RevyApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RevyApp;
 			sourceTree = "<group>";
 		};
-		4200A9FE2D0FD0AE005A952A /* RevyAppTests */ = {
+		42BEA9E92D100ACA00765F1F /* RevyAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RevyAppTests;
 			sourceTree = "<group>";
 		};
-		4200AA082D0FD0AE005A952A /* RevyAppUITests */ = {
+		42BEA9F32D100ACA00765F1F /* RevyAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RevyAppUITests;
+			sourceTree = "<group>";
+		};
+		42BEAA0D2D100AE100765F1F /* HomeWidgetExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				42BEAA1E2D100AE300765F1F /* Exceptions for "HomeWidgetExtension" folder in "HomeWidgetExtensionExtension" target */,
+			);
+			path = HomeWidgetExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4200A9E82D0FD0AD005A952A /* Frameworks */ = {
+		42BEA9D32D100AC800765F1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4200A9F82D0FD0AE005A952A /* Frameworks */ = {
+		42BEA9E32D100ACA00765F1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4200AA022D0FD0AE005A952A /* Frameworks */ = {
+		42BEA9ED2D100ACA00765F1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BEAA042D100AE100765F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BEAA0C2D100AE100765F1F /* SwiftUI.framework in Frameworks */,
+				42BEAA0A2D100AE100765F1F /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4200A9E22D0FD0AD005A952A = {
+		42BEA9CD2D100AC800765F1F = {
 			isa = PBXGroup;
 			children = (
-				4200A9ED2D0FD0AD005A952A /* RevyApp */,
-				4200A9FE2D0FD0AE005A952A /* RevyAppTests */,
-				4200AA082D0FD0AE005A952A /* RevyAppUITests */,
-				4200A9EC2D0FD0AD005A952A /* Products */,
+				42BEA9D82D100AC800765F1F /* RevyApp */,
+				42BEA9E92D100ACA00765F1F /* RevyAppTests */,
+				42BEA9F32D100ACA00765F1F /* RevyAppUITests */,
+				42BEAA0D2D100AE100765F1F /* HomeWidgetExtension */,
+				42BEAA082D100AE100765F1F /* Frameworks */,
+				42BEA9D72D100AC800765F1F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4200A9EC2D0FD0AD005A952A /* Products */ = {
+		42BEA9D72D100AC800765F1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4200A9EB2D0FD0AD005A952A /* RevyApp.app */,
-				4200A9FB2D0FD0AE005A952A /* RevyAppTests.xctest */,
-				4200AA052D0FD0AE005A952A /* RevyAppUITests.xctest */,
+				42BEA9D62D100AC800765F1F /* RevyApp.app */,
+				42BEA9E62D100ACA00765F1F /* RevyAppTests.xctest */,
+				42BEA9F02D100ACA00765F1F /* RevyAppUITests.xctest */,
+				42BEAA072D100AE100765F1F /* HomeWidgetExtensionExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		42BEAA082D100AE100765F1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42BEAA092D100AE100765F1F /* WidgetKit.framework */,
+				42BEAA0B2D100AE100765F1F /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4200A9EA2D0FD0AD005A952A /* RevyApp */ = {
+		42BEA9D52D100AC800765F1F /* RevyApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4200AA0F2D0FD0AE005A952A /* Build configuration list for PBXNativeTarget "RevyApp" */;
+			buildConfigurationList = 42BEA9FA2D100ACA00765F1F /* Build configuration list for PBXNativeTarget "RevyApp" */;
 			buildPhases = (
-				4200A9E72D0FD0AD005A952A /* Sources */,
-				4200A9E82D0FD0AD005A952A /* Frameworks */,
-				4200A9E92D0FD0AD005A952A /* Resources */,
+				42BEA9D22D100AC800765F1F /* Sources */,
+				42BEA9D32D100AC800765F1F /* Frameworks */,
+				42BEA9D42D100AC800765F1F /* Resources */,
+				42BEAA222D100AE300765F1F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				42BEAA1C2D100AE300765F1F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4200A9ED2D0FD0AD005A952A /* RevyApp */,
+				42BEA9D82D100AC800765F1F /* RevyApp */,
 			);
 			name = RevyApp;
 			packageProductDependencies = (
 			);
 			productName = RevyApp;
-			productReference = 4200A9EB2D0FD0AD005A952A /* RevyApp.app */;
+			productReference = 42BEA9D62D100AC800765F1F /* RevyApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4200A9FA2D0FD0AE005A952A /* RevyAppTests */ = {
+		42BEA9E52D100ACA00765F1F /* RevyAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4200AA122D0FD0AE005A952A /* Build configuration list for PBXNativeTarget "RevyAppTests" */;
+			buildConfigurationList = 42BEA9FD2D100ACA00765F1F /* Build configuration list for PBXNativeTarget "RevyAppTests" */;
 			buildPhases = (
-				4200A9F72D0FD0AE005A952A /* Sources */,
-				4200A9F82D0FD0AE005A952A /* Frameworks */,
-				4200A9F92D0FD0AE005A952A /* Resources */,
+				42BEA9E22D100ACA00765F1F /* Sources */,
+				42BEA9E32D100ACA00765F1F /* Frameworks */,
+				42BEA9E42D100ACA00765F1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4200A9FD2D0FD0AE005A952A /* PBXTargetDependency */,
+				42BEA9E82D100ACA00765F1F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4200A9FE2D0FD0AE005A952A /* RevyAppTests */,
+				42BEA9E92D100ACA00765F1F /* RevyAppTests */,
 			);
 			name = RevyAppTests;
 			packageProductDependencies = (
 			);
 			productName = RevyAppTests;
-			productReference = 4200A9FB2D0FD0AE005A952A /* RevyAppTests.xctest */;
+			productReference = 42BEA9E62D100ACA00765F1F /* RevyAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4200AA042D0FD0AE005A952A /* RevyAppUITests */ = {
+		42BEA9EF2D100ACA00765F1F /* RevyAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4200AA152D0FD0AE005A952A /* Build configuration list for PBXNativeTarget "RevyAppUITests" */;
+			buildConfigurationList = 42BEAA002D100ACA00765F1F /* Build configuration list for PBXNativeTarget "RevyAppUITests" */;
 			buildPhases = (
-				4200AA012D0FD0AE005A952A /* Sources */,
-				4200AA022D0FD0AE005A952A /* Frameworks */,
-				4200AA032D0FD0AE005A952A /* Resources */,
+				42BEA9EC2D100ACA00765F1F /* Sources */,
+				42BEA9ED2D100ACA00765F1F /* Frameworks */,
+				42BEA9EE2D100ACA00765F1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4200AA072D0FD0AE005A952A /* PBXTargetDependency */,
+				42BEA9F22D100ACA00765F1F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4200AA082D0FD0AE005A952A /* RevyAppUITests */,
+				42BEA9F32D100ACA00765F1F /* RevyAppUITests */,
 			);
 			name = RevyAppUITests;
 			packageProductDependencies = (
 			);
 			productName = RevyAppUITests;
-			productReference = 4200AA052D0FD0AE005A952A /* RevyAppUITests.xctest */;
+			productReference = 42BEA9F02D100ACA00765F1F /* RevyAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		42BEAA062D100AE100765F1F /* HomeWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BEAA1F2D100AE300765F1F /* Build configuration list for PBXNativeTarget "HomeWidgetExtensionExtension" */;
+			buildPhases = (
+				42BEAA032D100AE100765F1F /* Sources */,
+				42BEAA042D100AE100765F1F /* Frameworks */,
+				42BEAA052D100AE100765F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				42BEAA0D2D100AE100765F1F /* HomeWidgetExtension */,
+			);
+			name = HomeWidgetExtensionExtension;
+			packageProductDependencies = (
+			);
+			productName = HomeWidgetExtensionExtension;
+			productReference = 42BEAA072D100AE100765F1F /* HomeWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4200A9E32D0FD0AD005A952A /* Project object */ = {
+		42BEA9CE2D100AC800765F1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					4200A9EA2D0FD0AD005A952A = {
+					42BEA9D52D100AC800765F1F = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					4200A9FA2D0FD0AE005A952A = {
+					42BEA9E52D100ACA00765F1F = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 4200A9EA2D0FD0AD005A952A;
+						TestTargetID = 42BEA9D52D100AC800765F1F;
 					};
-					4200AA042D0FD0AE005A952A = {
+					42BEA9EF2D100ACA00765F1F = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 4200A9EA2D0FD0AD005A952A;
+						TestTargetID = 42BEA9D52D100AC800765F1F;
+					};
+					42BEAA062D100AE100765F1F = {
+						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 4200A9E62D0FD0AD005A952A /* Build configuration list for PBXProject "RevyApp" */;
+			buildConfigurationList = 42BEA9D12D100AC800765F1F /* Build configuration list for PBXProject "RevyApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4200A9E22D0FD0AD005A952A;
+			mainGroup = 42BEA9CD2D100AC800765F1F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4200A9EC2D0FD0AD005A952A /* Products */;
+			productRefGroup = 42BEA9D72D100AC800765F1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4200A9EA2D0FD0AD005A952A /* RevyApp */,
-				4200A9FA2D0FD0AE005A952A /* RevyAppTests */,
-				4200AA042D0FD0AE005A952A /* RevyAppUITests */,
+				42BEA9D52D100AC800765F1F /* RevyApp */,
+				42BEA9E52D100ACA00765F1F /* RevyAppTests */,
+				42BEA9EF2D100ACA00765F1F /* RevyAppUITests */,
+				42BEAA062D100AE100765F1F /* HomeWidgetExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4200A9E92D0FD0AD005A952A /* Resources */ = {
+		42BEA9D42D100AC800765F1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4200A9F92D0FD0AE005A952A /* Resources */ = {
+		42BEA9E42D100ACA00765F1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4200AA032D0FD0AE005A952A /* Resources */ = {
+		42BEA9EE2D100ACA00765F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BEAA052D100AE100765F1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +336,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4200A9E72D0FD0AD005A952A /* Sources */ = {
+		42BEA9D22D100AC800765F1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4200A9F72D0FD0AE005A952A /* Sources */ = {
+		42BEA9E22D100ACA00765F1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4200AA012D0FD0AE005A952A /* Sources */ = {
+		42BEA9EC2D100ACA00765F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BEAA032D100AE100765F1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +367,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4200A9FD2D0FD0AE005A952A /* PBXTargetDependency */ = {
+		42BEA9E82D100ACA00765F1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4200A9EA2D0FD0AD005A952A /* RevyApp */;
-			targetProxy = 4200A9FC2D0FD0AE005A952A /* PBXContainerItemProxy */;
+			target = 42BEA9D52D100AC800765F1F /* RevyApp */;
+			targetProxy = 42BEA9E72D100ACA00765F1F /* PBXContainerItemProxy */;
 		};
-		4200AA072D0FD0AE005A952A /* PBXTargetDependency */ = {
+		42BEA9F22D100ACA00765F1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4200A9EA2D0FD0AD005A952A /* RevyApp */;
-			targetProxy = 4200AA062D0FD0AE005A952A /* PBXContainerItemProxy */;
+			target = 42BEA9D52D100AC800765F1F /* RevyApp */;
+			targetProxy = 42BEA9F12D100ACA00765F1F /* PBXContainerItemProxy */;
+		};
+		42BEAA1C2D100AE300765F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BEAA062D100AE100765F1F /* HomeWidgetExtensionExtension */;
+			targetProxy = 42BEAA1B2D100AE300765F1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4200AA0D2D0FD0AE005A952A /* Debug */ = {
+		42BEA9F82D100ACA00765F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +448,7 @@
 			};
 			name = Debug;
 		};
-		4200AA0E2D0FD0AE005A952A /* Release */ = {
+		42BEA9F92D100ACA00765F1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +504,7 @@
 			};
 			name = Release;
 		};
-		4200AA102D0FD0AE005A952A /* Debug */ = {
+		42BEA9FB2D100ACA00765F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -416,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		4200AA112D0FD0AE005A952A /* Release */ = {
+		42BEA9FC2D100ACA00765F1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +560,7 @@
 			};
 			name = Release;
 		};
-		4200AA132D0FD0AE005A952A /* Debug */ = {
+		42BEA9FE2D100ACA00765F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,7 +578,7 @@
 			};
 			name = Debug;
 		};
-		4200AA142D0FD0AE005A952A /* Release */ = {
+		42BEA9FF2D100ACA00765F1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,7 +596,7 @@
 			};
 			name = Release;
 		};
-		4200AA162D0FD0AE005A952A /* Debug */ = {
+		42BEAA012D100ACA00765F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -496,7 +612,7 @@
 			};
 			name = Debug;
 		};
-		4200AA172D0FD0AE005A952A /* Release */ = {
+		42BEAA022D100ACA00765F1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -509,49 +625,110 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = RevyApp;
+			};
+			name = Release;
+		};
+		42BEAA202D100AE300765F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Hildebrand.RevyApp.HomeWidgetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42BEAA212D100AE300765F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Hildebrand.RevyApp.HomeWidgetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4200A9E62D0FD0AD005A952A /* Build configuration list for PBXProject "RevyApp" */ = {
+		42BEA9D12D100AC800765F1F /* Build configuration list for PBXProject "RevyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4200AA0D2D0FD0AE005A952A /* Debug */,
-				4200AA0E2D0FD0AE005A952A /* Release */,
+				42BEA9F82D100ACA00765F1F /* Debug */,
+				42BEA9F92D100ACA00765F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4200AA0F2D0FD0AE005A952A /* Build configuration list for PBXNativeTarget "RevyApp" */ = {
+		42BEA9FA2D100ACA00765F1F /* Build configuration list for PBXNativeTarget "RevyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4200AA102D0FD0AE005A952A /* Debug */,
-				4200AA112D0FD0AE005A952A /* Release */,
+				42BEA9FB2D100ACA00765F1F /* Debug */,
+				42BEA9FC2D100ACA00765F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4200AA122D0FD0AE005A952A /* Build configuration list for PBXNativeTarget "RevyAppTests" */ = {
+		42BEA9FD2D100ACA00765F1F /* Build configuration list for PBXNativeTarget "RevyAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4200AA132D0FD0AE005A952A /* Debug */,
-				4200AA142D0FD0AE005A952A /* Release */,
+				42BEA9FE2D100ACA00765F1F /* Debug */,
+				42BEA9FF2D100ACA00765F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4200AA152D0FD0AE005A952A /* Build configuration list for PBXNativeTarget "RevyAppUITests" */ = {
+		42BEAA002D100ACA00765F1F /* Build configuration list for PBXNativeTarget "RevyAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4200AA162D0FD0AE005A952A /* Debug */,
-				4200AA172D0FD0AE005A952A /* Release */,
+				42BEAA012D100ACA00765F1F /* Debug */,
+				42BEAA022D100ACA00765F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BEAA1F2D100AE300765F1F /* Build configuration list for PBXNativeTarget "HomeWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BEAA202D100AE300765F1F /* Debug */,
+				42BEAA212D100AE300765F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4200A9E32D0FD0AD005A952A /* Project object */;
+	rootObject = 42BEA9CE2D100AC800765F1F /* Project object */;
 }

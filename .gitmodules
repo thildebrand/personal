@@ -1,0 +1,3 @@
+[submodule "RevyApp"]
+	path = RevyApp
+	url = https://github.com/username/RevyApp.git
